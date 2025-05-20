@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": 1747520065951,
+      "username": "test1",
+      "password": "test1",
+      "ip": ""
+    },
+    {
+      "id": 1747523405688,
+      "username": "test2",
+      "password": "test2",
+      "ip": "::1"
+    }
+  ],
+  "transfers": [
+    {
+      "id": 1747614023262,
+      "number": "01231321231",
+      "amount": "500"
+    },
+    {
+      "id": 1747614070035,
+      "number": "02123123123",
+      "amount": "500"
+    },
+    {
+      "id": 1747615754605,
+      "number": "01065277153",
+      "amount": "2000"
+    },
+    {
+      "id": 1747616326065,
+      "number": "01065217720",
+      "amount": "200"
+    }
+  ],
+  "wallets": {
+    "vodafone": "01069927215",
+    "orange": "01205923289",
+    "etisalat": "01144065913",
+    "instapay": "mohamed.osamaa"
+  },
+  "visits": [
+    {
+      "id": 1747523405688,
+      "username": "test2",
+      "password": "test2",
+      "ip": "::1",
+      "timestamp": "2025-05-17T23:10:05.689Z"
+    }
+  ]
+}
