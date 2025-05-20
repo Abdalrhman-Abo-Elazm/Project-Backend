@@ -2,9 +2,8 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const low = require("lowdb");
-const FileSync = require("lowdb/adapters/FileSync");
-
-const adapter = new FileSync("db.json");
+const Memory = require("lowdb/adapters/Memory");
+const adapter = new Memory();
 const db = low(adapter);
 
 // القيم الافتراضية في قاعدة البيانات
